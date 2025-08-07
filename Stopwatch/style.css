@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url(1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.wrap{
+    backdrop-filter: blur(20px);
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 440px;
+    height: 400px;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.wrap #time{
+    font-size: 60px;
+}
+
+button{
+    
+    padding: 20px 30px;
+    border-radius: 10px ;
+    border: none;
+    transition: 1s color,1s background-color,0.2s transform;
+}
+#btn1,#btn2,#btn3{
+    margin: 20px;
+    margin-top: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+}
