@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(1.jpg) no-repeat;
+    background-size: cover;
+}
+.wrap{
+    border: 2px solid black;
+    background: transparent;
+    color: white;
+    backdrop-filter: blur(20px);
+    border-radius:20px ;
+    width: 400px;
+    height: 440px;
+    text-align: center;
+    font-size:70px;
+}
+.wrap #clock{
+    margin-top: 20%;
+}
